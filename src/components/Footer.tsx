@@ -8,33 +8,35 @@ export default function Footer() {
       <div className="flex justify-center mb-2">
         <div className="text-center">
           <p className="opacity-50">Luna!</p>
-          <p className="opacity-50">©2025</p>
+          <p className="opacity-50">©2026</p>
         </div>
       </div>
-      <div className="absolute bottom-4 right-4 flex flex-row items-center gap-4">
-        <div className="bg-white w-[50px] h-[30px] border-2 border-black overflow-hidden">
-          <img
-            src={TransBanner}
-            className="w-full h-full object-contain"
-            alt="Trans Banner"
-          />
-        </div>
-        <div className="bg-white w-[50px] h-[30px] border-2 border-black overflow-hidden">
-          <img
-            src={MOTDBanner}
-            className="w-full h-full object-contain"
-            alt="MOTD Banner"
-          />
-        </div>
-        <div className="bg-white w-[75px] h-[30px] border-2 border-black overflow-hidden">
-          <a href="/kitties" className="block w-full h-full">
-            <img
-              src={Kitty}
-              className="w-full h-full object-contain"
-              alt="Kitty"
-            />
-          </a>
-        </div>
+      <div className="flex flex-box block mt-7">
+          <div className="absolute bottom-4 right-4 flex flex-row items-center gap-4 flex">
+            <div className="bg-white w-[50px] h-[30px] border-2 border-black overflow-hidden">
+              <img
+                src={TransBanner}
+                className="w-full h-full object-contain"
+                alt="Trans Banner"
+              />
+            </div>
+            <div className="bg-white w-[50px] h-[30px] border-2 border-black overflow-hidden">
+              <img
+                src={MOTDBanner}
+                className="w-full h-full object-contain"
+                alt="MOTD Banner"
+              />
+            </div>
+            <div className="bg-white w-[75px] h-[30px] border-2 border-black overflow-hidden">
+              <a href="/kitties" className="block w-full h-full">
+                <img
+                  src={Kitty}
+                  className="w-full h-full object-contain"
+                  alt="Kitty"
+                />
+              </a>
+            </div>
+          </div>
       </div>
     </footer>
   );
