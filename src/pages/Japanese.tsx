@@ -3,8 +3,7 @@ export default function HRT() {
     <>
       <div className="flex items-center justify-center  border-pink-200 mt-5 w-[1000px] break-text mx-auto rounded-3xl  ">
         <p className="text-2xl font-bold text-center">
-          Hey! This is my progress on learning Japanese, I started on 2025/10/27 (Y/M/D), The first 6 weeks i had alot of time to study because
-          of broken wrist!
+          Hey! This is my progress on learning Japanese, I started on 2026/03/23 (Y/M/D)
         </p>
       </div>
         <p className="font-bold text-red-400 flex flex-wrap text-center mx-auto">[This page will update with progress!]</p>
@@ -17,7 +16,7 @@ export default function HRT() {
       </div>
       <div className="flex flex-col items-center border-1 mt-1 w-auto mx-auto rounded-2xl p-3">
         <h1 className="flex items-center text-center mx-auto font-bold text-red-100 text-lg">
-          Hiragana 2025/10/2028
+          Hiragana 2026/03/30
           <a
             target="_blank"
             href="https://www.youtube.com/watch?v=6p9Il_j0zjc"

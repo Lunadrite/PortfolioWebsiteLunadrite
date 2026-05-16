@@ -6,7 +6,7 @@ export default function Header({ path }: { path: string }) {
       <div className="Logo-Name font-bold flex gap-1.5 items-center">
         <img src={Logo} width={34} />
         <a href="/">
-          <p className="mb-1  text-base lg:text-2xl md:text-lg">
+          <p className="mb-1  text-base lg:text-2xl md:text-lg ">
             Luna's Designs
           </p>
         </a>
@@ -22,11 +22,11 @@ export default function Header({ path }: { path: string }) {
           <a href="/aboutme">About me</a>
         </button>
         </li>
+        <li className={path === "/Projects" ? "underline font-bold " : ""}>
+          <a href="/Projects">Projects</a>
+        </li>
         <li className={path === "/hrt" ? "underline font-bold " : ""}>
           <a href="/hrt">HRT</a>
-        </li>
-        <li className={path === "/friends" ? "underline font-bold " : ""}>
-          <a href="/friends">Friends</a>
         </li>
         <li>
         <button className={path === "/gallery" ? "underline font-bold " : ""}>

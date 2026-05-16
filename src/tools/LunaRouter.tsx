@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import Kitties from "../pages/Kitties";
 import Aboutme from "../pages/aboutme";
 import Japanese from "../pages/Japanese"
+import Projects from "../pages/Projects"
 
 export default function LunaRouter() {
   const paths = {
@@ -20,6 +21,7 @@ export default function LunaRouter() {
     "/kitties": <Kitties />,
     "/aboutme": <Aboutme />,
     "/Japanese": <Japanese />,
+    "/Projects": <Projects />,
   };
 
   const PageRouter = () => {
