@@ -16,7 +16,7 @@ export default function HRT() {
       </div>
       <div className="flex flex-col items-center border-1 mt-1 w-auto mx-auto rounded-2xl p-3">
         <h1 className="flex items-center text-center mx-auto font-bold text-red-100 text-lg">
-          Hiragana 2026/03/30
+          Hiragana 2026/03/30 
           <a
             target="_blank"
             href="https://www.youtube.com/watch?v=6p9Il_j0zjc"
