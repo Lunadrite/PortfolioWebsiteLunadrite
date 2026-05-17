@@ -21,7 +21,6 @@ body {
     @apply flex gap-[20px] list-none p-2 bg-[#c65d7b] rounded-md text-start;
   }
   .projectComment {@apply 
-    flex 
     gap-[20px] 
     list-none 
     p-2 
