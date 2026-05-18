@@ -1,3 +1,66 @@
+# Luna Designs Portfolio
+
+Personal portfolio website showcasing development on projects, Pictures i have taken in the past and Future projects i am going to work on!
+
+<img width="300"   alt="Picture of Luna Designes on a desktop showing its scalability" src="https://github.com/user-attachments/assets/e24efb36-77db-4668-a7cd-cf5cfa8db712" />
+
+<img width="300"  alt="Picture of Luna Designes on a phone showing its compatability" src="https://github.com/user-attachments/assets/d42dfec2-19ba-4186-afeb-2f54b8579356" />
+
+## Live Demo
+https://lunadesigns.dev/
+
+## Features
+
+- Custom lightweight page routing system
+- Responsive layout
+- Interactive UI elements
+- Project showcase section
+- Smooth animations and transitions
+- Optimized asset loading
+
+## Technical Notes
+
+Instead of using a full routing library, I created a lightweight custom router specifically for the portfolio's small number of pages. This reduced unnecessary overhead and allowed for faster page transitions while keeping the project simple.
+## Built With
+
+- Vite
+- JavaScript
+- HTML/CSS
+- Tailwind CSS
+- Figma
+- Bun
+
+  ## What I Learned
+
+- I improved on my design and working with tailwind
+- Optimizing page structure was a big task for me but i understood it and im able to replicate it for other projects
+- Structured frontend dev
+- Improving UI consistency
+
+  ## Future Improvements
+
+- Add blog/articles section
+- Add backend contact form
+- Expand project filtering system
+- Add more future projects
+- Finish About me 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
