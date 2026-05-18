@@ -1,17 +1,17 @@
 import { Fragment } from "react/jsx-runtime";
-import Header from "../components/Header.tsx";
-import Home from "../pages/home.tsx";
-import Hrt from "../pages/hrt.tsx";
-import Friends from "../pages/friends.tsx";
-import Gallery from "../pages/gallery.tsx";
+import Header from "../components/Header";
+import Home from "../pages/Home";
+import Hrt from "../pages/Hrt";
+import Friends from "../pages/Friends";
+import Gallery from "../pages/Gallery";
 import "../App.css";
 import { Analytics } from "@vercel/analytics/react";
 import Footer from "../components/Footer";
-import Kitties from "../pages/kitties.tsx";
-import Aboutme from "../pages/aboutme.tsx";
-import Japanese from "../pages/japanese.tsx"
-import Projects from "../pages/projects.tsx"
-import Blogposts from "../pages/blogposts.tsx"
+import Kitties from "../pages/Kitties";
+import Aboutme from "../pages/Aboutme";
+import Japanese from "../pages/Japanese"
+import Projects from "../pages/Projects"
+import Blogposts from "../pages/Blogposts"
 
 //Blogposts
 
