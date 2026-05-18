@@ -1,7 +1,7 @@
 import TransBanner from "../assets/footer/TransBanner.png";
 import MOTDBanner from "../assets/footer/MOTDBanner.png";
 import Kitty from "../assets/footer/d8062f4023cc4304d8cfc2d2d15df6fa.jpg";
-
+//
 export default function Footer() {
   return (
     <footer className="bg-[#2c2c2c] rounded-3xl mb-[2vh] p-4 relative min-h-20">
