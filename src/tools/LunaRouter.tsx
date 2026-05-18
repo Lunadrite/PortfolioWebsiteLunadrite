@@ -1,27 +1,31 @@
 import { Fragment } from "react/jsx-runtime";
 import Header from "../components/Header";
-import Home from "../pages/Home";
-import HRT from "../pages/HRT";
-import Friends from "../pages/Friends";
-import Gallery from "../pages/Gallery";
+import Home from "../pages/home";
+import Hrt from "../pages/hrt";
+import Friends from "../pages/friends";
+import Gallery from "../pages/gallery";
 import "../App.css";
 import { Analytics } from "@vercel/analytics/react";
 import Footer from "../components/Footer";
-import Kitties from "../pages/Kitties";
+import Kitties from "../pages/kitties";
 import Aboutme from "../pages/aboutme";
-import Japanese from "../pages/Japanese"
-import Projects from "../pages/Projects"
+import Japanese from "../pages/japanese"
+import Projects from "../pages/projects"
+import Blogposts from "../pages/blogposts"
+
+//Blogposts
 
 export default function LunaRouter() {
   const paths = {
     "/": <Home />,
-    "/hrt": <HRT />,
+    "/hrt": <Hrt />,
     "/friends": <Friends />,
     "/gallery": <Gallery />,
     "/kitties": <Kitties />,
     "/aboutme": <Aboutme />,
-    "/Japanese": <Japanese />,
-    "/Projects": <Projects />,
+    "/japanese": <Japanese />,
+    "/projects": <Projects />,
+    "/blogposts":<Blogposts />,
   };
 
   const PageRouter = () => {

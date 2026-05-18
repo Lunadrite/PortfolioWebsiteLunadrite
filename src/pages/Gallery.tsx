@@ -7,7 +7,7 @@ import crossroads from "../assets/gallery/crossroads.jpg";
 import castle from "../assets/gallery/castle.jpg";
 
 
-export default function HRT() {
+export default function Gallery() {
   return (
     <>
       <p className="pt-4 mb-4 mx-auto text-center">

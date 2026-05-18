@@ -17,13 +17,14 @@ export default function Header({ path }: { path: string }) {
         <li className={path === "/" ? "underline font-bold " : ""}>
           <a href="/">Links</a>
         </li>
-        <li className={path === "/Projects" ? "underline font-bold " : ""}>
-          <a href="/Projects">Projects</a>
+        <li className={path === "/projects" ? "underline font-bold " : ""}>
+          <a href="/projects">Projects</a>
         </li>
-        <li>
-        <button className={path === "/gallery" ? "underline font-bold " : ""}>
+        <li className={path === "/gallery" ? "underline font-bold " : ""}>
           <a href="/gallery">Gallery</a>
-        </button>
+        </li>
+        <li className={path === "blogposts" ? "underline font-bold " : ""}>
+          <a href="/blogposts">Blogposts</a>
         </li>
       </ul>
     </header>
