@@ -25,9 +25,6 @@ export default function Header({ path }: { path: string }) {
         <li className={path === "/Projects" ? "underline font-bold " : ""}>
           <a href="/Projects">Projects</a>
         </li>
-        <li className={path === "/hrt" ? "underline font-bold " : ""}>
-          <a href="/hrt">HRT</a>
-        </li>
         <li>
         <button className={path === "/gallery" ? "underline font-bold " : ""}>
           <a href="/gallery">Gallery</a>
