@@ -12,6 +12,7 @@ import Aboutme from "../pages/Aboutme";
 import Japanese from "../pages/Japanese"
 import Projects from "../pages/Projects"
 import Blogposts from "../pages/Blogposts"
+import Pointerblogpost from "../pages/PointerBlogpost"
 
 //Blogposts
 
@@ -26,6 +27,7 @@ export default function LunaRouter() {
     "/japanese": <Japanese />,
     "/projects": <Projects />,
     "/blogposts":<Blogposts />,
+    "/pointerblogpost": <Pointerblogpost/>
   };
 
   const PageRouter = () => {
