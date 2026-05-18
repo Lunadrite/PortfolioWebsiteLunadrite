@@ -22,7 +22,7 @@ export default function Blogposts() {
           <img src={pointersexplained}  className=" hover:border-pink-400 transition-colors w-full  max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
         </div>
         <div className="projectComment max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl break-words text-center">
-          Example blogpost 2
+          Example blogpost 2-
         </div>
       </div>
 
