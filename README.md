@@ -2,9 +2,9 @@
 
 Personal portfolio website showcasing development on projects, Pictures i have taken in the past and Future projects i am going to work on!
 
-<img width="1464" height="906" alt="Picture of Luna Designes on a desktop showing its scalability" src="https://github.com/user-attachments/assets/e24efb36-77db-4668-a7cd-cf5cfa8db712" />
+<img width="300"  alt="Picture of Luna Designes on a desktop showing its scalability" src="https://github.com/user-attachments/assets/e24efb36-77db-4668-a7cd-cf5cfa8db712" />
 
-<img width="1170" height="2532" alt="Picture of Luna Designes on a phone showing its compatability" src="https://github.com/user-attachments/assets/d42dfec2-19ba-4186-afeb-2f54b8579356" />
+<img width="300"  alt="Picture of Luna Designes on a phone showing its compatability" src="https://github.com/user-attachments/assets/d42dfec2-19ba-4186-afeb-2f54b8579356" />
 
 ## Features
 
