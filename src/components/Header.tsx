@@ -17,11 +17,6 @@ export default function Header({ path }: { path: string }) {
         <li className={path === "/" ? "underline font-bold " : ""}>
           <a href="/">Links</a>
         </li>
-        <li>
-        <button className={path === "/aboutme" ? "underline font-bold " : ""}>
-          <a href="/aboutme">About me</a>
-        </button>
-        </li>
         <li className={path === "/Projects" ? "underline font-bold " : ""}>
           <a href="/Projects">Projects</a>
         </li>
