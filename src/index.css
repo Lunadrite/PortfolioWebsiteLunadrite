@@ -20,6 +20,11 @@ body {
   .pictureComment {
     @apply flex gap-[20px] list-none p-2 bg-[#c65d7b] rounded-md text-start;
   }
+
+  .importantInfo{
+    @apply border bg-red-950 text-red-400 rounded-2xl px-2 mx-1
+  }
+
   .projectComment {@apply 
     gap-[20px] 
     list-none 

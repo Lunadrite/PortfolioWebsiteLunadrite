@@ -31,9 +31,17 @@ function SubHeading({ children }: ChildrenProps) {
 
 function Text({ children }: ChildrenProps) {
     return(    
-      <p className="flex text-amber-50">
+      <p className="flex text-amber-50 pb-1">
         {children}
       </p>
+    )
+}
+
+function ImportantInfo({ children }: ChildrenProps) {
+    return(    
+      <span className="border bg-red-950 text-red-400 rounded-2xl px-2 mx-1">
+        {children}
+      </span>
     )
 }
 
@@ -54,7 +62,7 @@ function List({ items }: ListProps) {
   return (
     <ul className="text-gray-300 pb-10">
       {items.map((item) => (
-        <li key={item}>{item}</li>
+        <li className="pb-1" key={item}>{item}</li>
       ))}
     </ul>
   )
@@ -67,6 +75,7 @@ export const Blog = {
   SubHeading,
   ThumbnailImage,
   List,
+  ImportantInfo,
 
 
 }
