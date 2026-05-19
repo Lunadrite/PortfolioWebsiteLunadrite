@@ -5,9 +5,10 @@ import Linkedin from "../assets/home/InBug-White.png";
 import Connections from "../components/home/Connections";
 export default function Home() {
   return (
-    <main className="h-fit">
+    <main className="min-h-screen flex flex-col">
+      <div className="flex-1">
       <div className=" pt-4 font-medium text-center">
-        <p className="text-3xl ">Hai, Welcome to my website!</p>
+        <p className="text-3xl ">Hey, Welcome to my website!</p>
         <p className="font-light ">
           This is a very basic website just for the links enjoy i will fix while
           learning
@@ -32,7 +33,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="2xl:px-4 w-full 2xl:w-fit">
+        </div>
+        <div className="flex items-center justify-center gap-4 pt-2 ">
           <Connections />
         </div>
       </div>

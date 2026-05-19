@@ -2,10 +2,21 @@ import type { ReactNode } from "react"
 
 type ChildrenProps = {
   children: ReactNode
+  textsize?: string
+}
+type CodeProps = {
+  children: ReactNode
+  language?: string
+  caption?: string
+}
+type CalloutProps = {
+  children: ReactNode
+  caption?: string
 }
 
 type ImageProps = {
   src: string
+  width?: string
 }
 
 type ListProps = {
@@ -23,7 +34,7 @@ function Heading({ children }: ChildrenProps) {
 
 function SubHeading({ children }: ChildrenProps) {
     return(    
-      <h2 className="text-2xl flex pb-2">
+      <h2 className="text-3xl flex pb-3">
         {children}
       </h2>
     )
@@ -31,25 +42,27 @@ function SubHeading({ children }: ChildrenProps) {
 
 function Text({ children }: ChildrenProps) {
     return(    
-      <p className="flex text-amber-50 pb-1">
+      <p className="flex text-amber-50 pb-2">
         {children}
       </p>
     )
 }
 
-function ImportantInfo({ children }: ChildrenProps) {
+function ImportantInfo({ children, textsize }: ChildrenProps) {
     return(    
-      <span className="border bg-red-950 text-red-400 rounded-2xl px-2 mx-1">
+      <span className={`border ${textsize} bg-red-950 text-red-400 rounded-2xl px-2 mx-1`}>
         {children}
       </span>
     )
 }
 
-function Image({ src }: ImageProps) {
+function Image({ src, width = "w-70" }: ImageProps) {
     return(    
-      <img src={src} className="w-70 rounded-3xl py-3"></img>
+      <img src={src} 
+      className={`${width} rounded-3xl py-3`}/>
     )
 }
+
 function ThumbnailImage({ src }: ImageProps) {
     return(    
       <div className="justify-center flex">
@@ -68,6 +81,46 @@ function List({ items }: ListProps) {
   )
 }
 
+function Callout({ children, caption }: CalloutProps) {
+    return(    
+    <div className=" rounded-lg border bg-[#5f5f5f] border-black p-4 py-4.5 my-3 flex flex-wrap w-[auto]">
+      <p className="pl-4 text-white font-md">  
+      <Blog.ImportantInfo textsize="text-lg">!</Blog.ImportantInfo>{children}
+      </p>
+      <p className="font-thin text-sm">
+        {caption}
+      </p>
+    </div>
+    )
+}
+
+
+// <Pre> Important to remember becasue thts how we breakline in code blocks
+function Code({children,language = "txt", caption}: CodeProps) {
+  return (
+    <>
+    <div className="bg-[#1e1e1e] rounded-xl p-4 my-4 overflow-x-auto">
+      <div className="text-gray-400 text-sm pb-2">
+        {language}
+      </div>
+
+      <pre> 
+        <code className="text-gray-100">
+          {children}
+        </code>
+      </pre>
+    </div>
+    {caption&& (
+      <p className="font-thin text-sm">
+        {caption}
+      </p>
+    )}
+    </>
+  )
+}
+
+
+
 export const Blog = {
   Heading,
   Text,
@@ -76,6 +129,8 @@ export const Blog = {
   ThumbnailImage,
   List,
   ImportantInfo,
+  Callout,
+  Code,
 
 
 }
