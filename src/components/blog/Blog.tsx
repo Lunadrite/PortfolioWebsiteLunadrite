@@ -34,7 +34,7 @@ function Heading({ children }: ChildrenProps) {
 
 function SubHeading({ children }: ChildrenProps) {
     return(    
-      <h2 className="text-3xl flex pb-3">
+      <h2 className="text-3xl flex pb-3 font-bold">
         {children}
       </h2>
     )
