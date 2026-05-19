@@ -11,7 +11,15 @@ type ImageProps = {
 
 function Heading({ children }: ChildrenProps) {
     return(    
-      <h2 className="text-4xl justify-center flex py-3">
+      <h1 className="text-4xl justify-center flex py-3">
+        {children}
+      </h1>
+    )
+}
+
+function SubHeading({ children }: ChildrenProps) {
+    return(    
+      <h2 className="text-2xl flex pb-2">
         {children}
       </h2>
     )
@@ -19,9 +27,9 @@ function Heading({ children }: ChildrenProps) {
 
 function Text({ children }: ChildrenProps) {
     return(    
-      <h2 className="flex text-amber-50">
+      <p className="flex text-amber-50">
         {children}
-      </h2>
+      </p>
     )
 }
 
@@ -30,11 +38,20 @@ function Image({ src }: ImageProps) {
       <img src={src} className="w-70 rounded-3xl py-3"></img>
     )
 }
+function ThumbnailImage({ src }: ImageProps) {
+    return(    
+      <div className="justify-center flex">
+      <img src={src}  className="flex justify-center w-full  max-w-md md:min-w-2xl xl:min-w-3xl 2xl:min-w-3xl p-4 rounded-md object-cover "></img>
+    </div>
+    )
+}
 
 export const Blog = {
   Heading,
   Text,
   Image,
+  SubHeading,
+  ThumbnailImage,
 
 
 }

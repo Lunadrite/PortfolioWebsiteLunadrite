@@ -7,11 +7,9 @@ export default function Blogposts() {
   return (
     <>
     <Blog.Heading>Understanding Pointers in C++</Blog.Heading>
-    <div className="justify-center flex">
-      <img src={pointersexplained}  className="flex justify-center w-full  max-w-md md:min-w-2xl xl:min-w-3xl 2xl:min-w-3xl p-4 rounded-md object-cover "></img>
-    </div>
+    <Blog.ThumbnailImage src={pointersexplained} />
     <div className="text-1xl text-white">
-    <h2 className="text-2xl flex pb-2"> Table Of Contents:</h2>
+    <Blog.SubHeading> Table of contents:</Blog.SubHeading> 
     <ul className="text-gray-300 pb-10">
       <li>So what is a pointer?</li>
       <li>Pointer Declaration/De-Referencing</li>
@@ -24,10 +22,10 @@ export default function Blogposts() {
     <Blog.Text>
       In this article we are going to talk about the most over-complicated thing in computing, These are (drum role please) Pointers!
     </Blog.Text>
-    <img src={pointer} className="w-70 rounded-3xl py-3"></img>
+    <Blog.Image src={pointer} />
 
-     <a className="text-2xl flex pb-2"> So what is a pointer?</a>
-     
+    <Blog.SubHeading> So what is a pointer?</Blog.SubHeading> 
+
     <Blog.Text>
       Pointers can be simply be explained in 10 words "A variable that holds a memory address as a value"
     </Blog.Text>
