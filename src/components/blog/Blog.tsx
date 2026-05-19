@@ -8,6 +8,10 @@ type ImageProps = {
   src: string
 }
 
+type ListProps = {
+  items: string[]
+}
+
 
 function Heading({ children }: ChildrenProps) {
     return(    
@@ -46,12 +50,23 @@ function ThumbnailImage({ src }: ImageProps) {
     )
 }
 
+function List({ items }: ListProps) {
+  return (
+    <ul className="text-gray-300 pb-10">
+      {items.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
+    </ul>
+  )
+}
+
 export const Blog = {
   Heading,
   Text,
   Image,
   SubHeading,
   ThumbnailImage,
+  List,
 
 
 }
