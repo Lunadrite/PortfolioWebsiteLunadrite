@@ -10,7 +10,7 @@ export default function Projects() {
       Welcome to my Projects heres what im working on.
     </p>
 
-    <div className="grid 3xl:grid-cols-2 2xl:grid-cols-2 lg:grid-cols-2 gap-100 grid-cols-1 mx-auto ">
+    <div className="grid 3xl:grid-cols-2 2xl:grid-cols-2 lg:grid-cols-2 gap-x-100 gap-y-10 grid-cols-1 mx-auto ">
       <div className="flex gap-4 flex-col items-start">
         <div className="">
           <img src={lunadesignes}  className=" hover:border-pink-400 transition-colors w-full  max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
