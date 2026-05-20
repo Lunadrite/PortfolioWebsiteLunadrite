@@ -23,7 +23,7 @@ export default function Header({ path }: { path: string }) {
         <li className={path === "/gallery" ? "underline font-bold " : ""}>
           <a href="/gallery">Gallery</a>
         </li>
-        <li className={path === "blogposts" ? "underline font-bold " : ""}>
+        <li className={path === "/blogposts" ? "underline font-bold " : ""}>
           <a href="/blogposts">Blogposts</a>
         </li>
       </ul>

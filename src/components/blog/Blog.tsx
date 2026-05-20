@@ -1,8 +1,8 @@
 import type { ReactNode } from "react"
+import Github from "../../assets/home/github-mark-white.png";
 
 type ChildrenProps = {
   children: ReactNode
-  textsize?: string
 }
 type CodeProps = {
   children: ReactNode
@@ -32,6 +32,12 @@ type BlogpostProps ={
 type ProjectProps ={
   caption?: string,
   href?: string
+  src?: string
+}
+
+type ImportantInfo ={
+  children: ReactNode
+  textsize?: string
 }
 
 
@@ -59,7 +65,7 @@ function Text({ children }: ChildrenProps) {
     )
 }
 
-function ImportantInfo({ children, textsize }: ChildrenProps) {
+function ImportantInfo({ children, textsize }: ImportantInfo) {
     return(    
       <span className={`border ${textsize} bg-red-950 text-red-400 rounded-2xl px-2 mx-1`}>
         {children}
@@ -151,23 +157,19 @@ function Blogpost({caption, src, href}:BlogpostProps   )
   )
 }
 
-function Projects({caption, src}:ProjectProps   )
+function Projects({caption, src, href}:ProjectProps   )
 {
   return(
     <>
-      <div className="py-3">
-      <div className="flex gap-4 flex-col items-start">
-        <div className="" >
-          <a href={href}>
-          <img src={src} className=" hover:border-pink-400 transition-colors w-full  max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
-          </a>
+      <div className="flex gap-4 flex-col ">
+        <div className="">
+          <img src={src}  className=" hover:border-pink-400 transition-colors w-full  max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
         </div>
         <div className="projectComment w-full max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl break-words text-center">
-          {caption}
-        <p className="bg-red-200 rounded-4xl">Click Thumbnail to read</p>
+        {caption}
+        <a className="text-blue-600 flex justify-center" href={href}>Github Repo<img src={Github} className="w-[24px] bg-black rounded-4xl "></img></a>
         </div>
       </div>
-    </div>
     </>
   )
 }
@@ -185,6 +187,7 @@ export const Blog = {
   Callout,
   Code,
   Blogpost,
+  Projects,
 
 
 }

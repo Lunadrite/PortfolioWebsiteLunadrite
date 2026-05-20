@@ -10,8 +10,10 @@ export default function Projects() {
       Welcome to my Projects heres what im working on.
     </p>
 
-    <div className="grid 3xl:grid-cols-2 2xl:grid-cols-2 lg:grid-cols-2 gap-x-100 gap-y-10 grid-cols-1 mx-auto ">
-      <div className="flex gap-4 flex-col items-start">
+    <div className="flex justify-center">
+    <div className="grid 3xl:grid-cols-2 2xl:grid-cols-2 gap-x-70 lg:grid-cols-1 grid-cols-1 content-center">
+      
+      <div className="flex gap-4 flex-col ">
         <div className="">
           <img src={lunadesignes}  className=" hover:border-pink-400 transition-colors w-full  max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
         </div>
@@ -21,7 +23,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="flex gap-4 flex-col items-end">
+      <div className="flex gap-4 flex-col ">
         <div className="">
           <img src={Securechat}  className=" hover:border-pink-400 transition-colors w-full  max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
         </div>
@@ -29,7 +31,7 @@ export default function Projects() {
           This is my first every project! It was a really simple website with only the home page and the default router before i made my own since i didnt need to go to infinite pages and just a few. This was just a test to get into website development and where i fell in love with it.<br></br><a className="text-blue-600 flex justify-center" href="https://github.com/Lunadrite/SecureChat">Github Repo<img src={Github} className="w-[24px] bg-black rounded-4xl "></img></a>
         </div>
       </div>
-
+    </div>
     </div>
 
   </>
