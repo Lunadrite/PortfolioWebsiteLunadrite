@@ -10,8 +10,7 @@ export default function Home() {
       <div className=" pt-4 font-medium text-center">
         <p className="text-3xl ">Hey, Welcome to my website!</p>
         <p className="font-light ">
-          This is a very basic website just for the links enjoy i will fix while
-          learning
+          
         </p>
       </div>
       <div className="flex items-center pt-4 flex-col md:flex-row justify-center ">
