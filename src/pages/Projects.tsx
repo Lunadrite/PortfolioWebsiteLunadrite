@@ -1,5 +1,6 @@
 import lunadesignes from "../assets/projects/lunadesignes.png";
 import Securechat from "../assets/projects/SecureChat.png";
+import glfw from "../assets/projects/glfw.png"
 import { Blog } from "../components/blog/Blog"
 
 export default function Projects() {
@@ -25,9 +26,9 @@ export default function Projects() {
        ></Blog.Projects>
 
              <Blog.Projects 
-       src={Securechat}
-       caption="This is my first every project! It was a really simple website with only the home page and the default router before i made my own since i didnt need to go to infinite pages and just a few. This was just a test to get into website development and where i fell in love with it."
-       href="https://github.com/Lunadrite/SecureChat"
+       src={glfw}
+       caption="A beginner OpenGL project built in C++ using GLFW and GLAD, focused on learning the fundamentals of computer graphics, rendering pipelines, shaders, and window management. The project explores concepts such as buffers, vertex and fragment shaders, and rendering basic shapes like triangles while documenting the learning process throughout development."
+       href="https://github.com/Lunadrite/OpenGL-Attempt"
        ></Blog.Projects>
 
     </div>
