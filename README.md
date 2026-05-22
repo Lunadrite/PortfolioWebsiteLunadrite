@@ -44,6 +44,7 @@ Instead of using a full routing library, I created a lightweight custom router s
 - Expand project filtering system
 - Add more future projects
 - Finish About me 
+- Componentise 
 
 
 
