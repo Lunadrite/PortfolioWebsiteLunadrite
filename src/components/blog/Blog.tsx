@@ -161,7 +161,7 @@ function Projects({caption, src, href}:ProjectProps   )
 {
   return(
     <>
-      <div className="flex gap-4 flex-col ">
+      <div className="flex gap-4 flex-col pb-10">
         <div className="">
           <img src={src}  className=" hover:border-pink-400 transition-colors w-full  max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
         </div>
