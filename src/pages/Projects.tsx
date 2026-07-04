@@ -16,7 +16,7 @@ export default function Projects() {
       
       <Blog.Projects 
        src={lunadesignes}
-       caption="This is the website you are currently on! Luna designes was a project of mine what i have wanted to finish for a long time but it turns our i love just working on it"
+       caption="This is the website you are currently on! Luna designes was a project of mine what i have wanted to finish for a long time but it turns out i love just working on it"
        href="https://github.com/Lunadrite/PortfolioWebsiteLunadrite"
        ></Blog.Projects>
 
