@@ -5,6 +5,7 @@ import time from "../assets/gallery/time.jpg";
 import tunnel from "../assets/gallery/tunnel.jpg";
 import crossroads from "../assets/gallery/crossroads.jpg";
 import castle from "../assets/gallery/castle.jpg";
+import Karambit from "../assets/gallery"
 
 
 export default function Gallery() {
