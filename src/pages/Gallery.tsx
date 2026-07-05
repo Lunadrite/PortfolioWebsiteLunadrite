@@ -5,7 +5,7 @@ import time from "../assets/gallery/time.jpg";
 import tunnel from "../assets/gallery/tunnel.jpg";
 import crossroads from "../assets/gallery/crossroads.jpg";
 import castle from "../assets/gallery/castle.jpg";
-import Karambit from "../assets/gallery"
+import Karambit from "../assets/gallery/Karambit.jpg"
 
 
 export default function Gallery() {
@@ -57,6 +57,12 @@ export default function Gallery() {
             <img src={castle} className="border-1 p-4 rounded-lg"></img>
           </div>
           <div className="pictureComment max-w-[300px] break-words">🏰🐦‍⬛</div>
+        </div>
+        <div className="flex gap-4 flex-col items-start">
+          <div className="w-[300px]">
+            <img src={Karambit} className="border-1 p-4 rounded-lg"></img>
+          </div>
+          <div className="pictureComment max-w-[300px] break-words">Karambit i made in blender!</div>
         </div>
         
       </div>
