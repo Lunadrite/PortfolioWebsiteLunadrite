@@ -19,52 +19,16 @@ export default function Gallerys() {
       </p>
       
       <div className="grid 3xl:grid-cols-4 2xl:grid-cols-3 gap-8 lg:grid-cols-2 grid-cols-1 mx-auto ">
+      
+      <Gallery.Picture src={Karambit}>🖤🖤</Gallery.Picture>
       <Gallery.Picture src={railroad}>🖤🖤</Gallery.Picture>
+      <Gallery.Picture src={railstation}>🏴🖤</Gallery.Picture>
+      <Gallery.Picture src={time}>🎩🕰</Gallery.Picture>
+      <Gallery.Picture src={tunnel}>⬛◼◾▪</Gallery.Picture>
+      <Gallery.Picture src={rails}>🖤🖤</Gallery.Picture>
+      <Gallery.Picture src={crossroads}>🖤🖤</Gallery.Picture>
+      <Gallery.Picture src={castle}>🖤🖤</Gallery.Picture>
 
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={railstation} className="border-1 p-4 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🏴🖤</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={time} className="border-1 p-4 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🎩🕰</div>
-        </div>
-
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={tunnel} className="border-1 p-4 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">⬛◼◾▪</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={rails} className="border-1 p-4 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🏴🖤</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={crossroads} className="border-1 p-4 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🖤🛣</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={castle} className="border-1 p-4 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🏰🐦‍⬛</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={Karambit} className="border-1 p-4 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">Karambit i made in blender!</div>
-        </div>
-        
       </div>
     </>
   );
