@@ -7,20 +7,20 @@ import crossroads from "../assets/gallery/crossroads.jpg";
 import castle from "../assets/gallery/castle.jpg";
 import Karambit from "../assets/gallery/Karambit.jpg"
 
+// import { Blog } from "../components/blog/Blog"
+import { Gallery } from "../components/gallery/Gallery";
 
-export default function Gallery() {
+
+export default function Gallerys() {
   return (
     <>
       <p className="pt-4 mb-4 mx-auto text-center">
         Welcome to my gallery hope you enjoy my pictures :)
       </p>
+      
       <div className="grid 3xl:grid-cols-4 2xl:grid-cols-3 gap-8 lg:grid-cols-2 grid-cols-1 mx-auto ">
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={railroad} className="border-1 p-4 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🖤🖤</div>
-        </div>
+      <Gallery.Picture src={railroad}>🖤🖤</Gallery.Picture>
+
         <div className="flex gap-4 flex-col items-start">
           <div className="w-[300px]">
             <img src={railstation} className="border-1 p-4 rounded-lg"></img>
