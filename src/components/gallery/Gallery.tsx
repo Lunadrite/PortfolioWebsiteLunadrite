@@ -1,11 +1,5 @@
 import type { ReactNode } from "react"
 
-
-
-type ChildrenProps = {
-  children: ReactNode
-}
-
 type PictureProps = {
     children?: ReactNode
     src: string
@@ -28,4 +22,4 @@ function Picture({ src, children}: PictureProps) {
 
 export const Gallery = {
     Picture,
-}
+} //
