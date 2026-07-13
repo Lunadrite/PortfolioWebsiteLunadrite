@@ -33,14 +33,13 @@ type BlogpostProps ={
   src: string
   caption?: string
   href?: string
-  progress?: string
 }
 
 type ProjectProps ={
   caption?: string,
   href?: string
   src?: string
-  progress?: string
+  progress: string
 }
 
 type ImportantInfo ={
