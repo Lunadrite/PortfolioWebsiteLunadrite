@@ -1,6 +1,12 @@
 import type { ReactNode } from "react"
 import Github from "../../assets/home/github-mark-white.png";
 
+const progressText = {
+    finished: "✅ Finished",
+    inprogress: "🟡 In Progress",
+    planned: "⚪ Planned",
+}
+
 type ChildrenProps = {
   children: ReactNode
 }
@@ -27,12 +33,14 @@ type BlogpostProps ={
   src: string
   caption?: string
   href?: string
+  progress?: string
 }
 
 type ProjectProps ={
   caption?: string,
   href?: string
   src?: string
+  progress?: string
 }
 
 type ImportantInfo ={
@@ -157,7 +165,7 @@ function Blogpost({caption, src, href}:BlogpostProps   )
   )
 }
 
-function Projects({caption, src, href}:ProjectProps   )
+function Projects({caption, src, href, progress}:ProjectProps   )
 {
   return(
     <>
@@ -168,7 +176,9 @@ function Projects({caption, src, href}:ProjectProps   )
         <div className="projectComment w-full max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl break-words text-center">
         {caption}
         <a className="text-blue-600 flex justify-center" href={href}>Github Repo<img src={Github} className="w-[24px] bg-black rounded-4xl "></img></a>
+        <p>{progressText[progress]}</p>
         </div>
+        
       </div>
     </>
   )
