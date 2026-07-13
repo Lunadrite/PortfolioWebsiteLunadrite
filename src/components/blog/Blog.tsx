@@ -7,6 +7,8 @@ const progressText = {
     planned: "⚪ Planned",
 }
 
+type Progress = "finished" | "inprogress" | "planned";
+
 type ChildrenProps = {
   children: ReactNode
 }
@@ -39,7 +41,7 @@ type ProjectProps ={
   caption?: string,
   href?: string
   src?: string
-  progress: string
+  progress: Progress
 }
 
 type ImportantInfo ={
