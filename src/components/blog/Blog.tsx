@@ -176,7 +176,11 @@ function Projects({caption, src, href, progress}:ProjectProps   )
         <div className="projectComment w-full max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl break-words text-center">
         {caption}
         <a className="text-blue-600 flex justify-center" href={href}>Github Repo<img src={Github} className="w-[24px] bg-black rounded-4xl "></img></a>
-        <p>{progressText[progress]}</p>
+        <div className="flex content-center text-center justify-center pt-1">
+          <div className="border border-black p-1 rounded">
+            <p>{progressText[progress]}</p>
+          </div>
+        </div>
         </div>
         
       </div>
