@@ -15,14 +15,14 @@ function Heading({ children }: ChildrenProps) {
 }
 function SubHeading({ children }: ChildrenProps) {
     return(    
-      <h1 className="text-1xl justify-center flex py-3">
+      <h1 className="text-xl justify-center flex ">
         {children}
       </h1>
     )
 }
 function Text({ children }: ChildrenProps) {
     return(    
-      <h1 className="text-lg justify-center flex py-3">
+      <h1 className="text-lg justify-center flex py-2">
         {children}
       </h1>
     )
