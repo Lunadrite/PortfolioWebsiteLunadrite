@@ -4,9 +4,11 @@ import RecentBlogposts from "../components/home/RecentBlogposts"
 
 export default function Home() {
   return (
-    <main className="grid 3xl:grid-cols-3 2xl:grid-cols-3 gap-x-5 lg:grid-cols-3 grid-cols-1">
+    <main className="grid gap-x-5 lg:grid-cols-4 grid-cols-1">
       <HeroCard /> {/*My info card :) */}
-      <InfoCard />
+      <div className="col-span-2">
+        <InfoCard />
+      </div>
       <RecentBlogposts />
    
     </main>
