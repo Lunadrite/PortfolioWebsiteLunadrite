@@ -1,5 +1,5 @@
-import pointersexplained from "../assets/Blogposts/PointersExplained.png";
 import { Blog } from "../components/blog/Blog"
+import {Blogs} from "../components/blog/Blogposts"
 
 export default function Blogposts() {
   return (
@@ -10,8 +10,14 @@ export default function Blogposts() {
 
     <div className="flex justify-center">
     <div className="grid 3xl:grid-cols-2 2xl:grid-cols-2 gap-x-70 lg:grid-cols-1 grid-cols-1 content-center ">
-    <Blog.Blogpost src={pointersexplained} caption="Understanding Pointers in C++" href="./pointerblogpost" />
-    <Blog.Blogpost src={pointersexplained} caption="Understanding Pointers in C++" href="./pointerblogpost" />
+        {Blogs.map((blog) => (
+        <Blog.Blogpost
+          caption={blog.title}
+          src={blog.image}
+          href={blog.href}
+        />
+          ))}
+  
     
     
     </div>

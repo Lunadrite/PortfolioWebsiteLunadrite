@@ -153,10 +153,10 @@ function Blogpost({caption, src, href}:BlogpostProps   )
       <div className="flex gap-4 flex-col items-start">
         <div className="" >
           <a href={href}>
-          <img src={src} className=" hover:border-pink-400 transition-colors w-full  max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
+          <img src={src} className=" hover:border-pink-400 transition-colors 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
           </a>
         </div>
-        <div className="projectComment w-full max-w-sm md:min-w-lg xl:min-w-1xl 2xl:min-w-1xl break-words text-center">
+        <div className="projectComment  2xl:min-w-1xl break-words text-center">
           {caption}
         <p className="bg-red-200 rounded-4xl">Click Thumbnail to read</p>
         </div>
