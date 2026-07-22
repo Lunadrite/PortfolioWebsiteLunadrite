@@ -156,7 +156,7 @@ function Blogpost({caption, src, href}:BlogpostProps   )
           <img src={src} className=" hover:border-pink-400 transition-colors 2xl:min-w-1xl border p-4 rounded-lg object-cover "></img>
           </a>
         </div>
-        <div className="projectComment  2xl:min-w-1xl break-words text-center">
+        <div className="projectComment  w-full 2xl:min-w-1xl break-words text-center">
           {caption}
         <p className="bg-red-200 rounded-4xl">Click Thumbnail to read</p>
         </div>
