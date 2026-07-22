@@ -8,7 +8,14 @@ type ChildrenProps = {
 
 function Heading({ children }: ChildrenProps) {
     return(    
-      <h1 className="text-4xl justify-center flex py-3">
+      <h1 className="text-1xl justify-center flex py-3">
+        {children}
+      </h1>
+    )
+}
+function SubHeading({ children }: ChildrenProps) {
+    return(    
+      <h1 className="text-lg justify-center flex py-3">
         {children}
       </h1>
     )
@@ -19,6 +26,6 @@ function Heading({ children }: ChildrenProps) {
 
 export const Home = {
     Heading,
-
+    SubHeading,
 
 }
