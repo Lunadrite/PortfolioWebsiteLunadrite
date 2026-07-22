@@ -2,8 +2,19 @@ import lunadesignes from "../../assets/projects/lunadesignes.png";
 import Securechat from "../../assets/projects/Securechat.png";
 import glfw from "../../assets/projects/glfw.png";
 import cliProject from "../../assets/projects/cliProject.png";
+export type Progress = "finished" | "in-progress";
 
-export const Projects = [
+interface Project {
+    id: string;
+    title: string;
+    image: string;
+    description: string;
+    github: string;
+    status: Progress;
+    technologies: string[];
+}
+
+export const Projects: Project[] = [
   {
     id: "lunadesignes",
     title: "LunaDesignes",
