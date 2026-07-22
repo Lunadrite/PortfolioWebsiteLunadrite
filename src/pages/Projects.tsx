@@ -1,3 +1,8 @@
+import lunadesignes from "../../assets/projects/lunadesignes.png";
+import Securechat from "../../assets/projects/SecureChat.png";
+import glfw from "../../assets/projects/glfw.png";
+import cliProject from "../../assets/projects/cliProject.png";
+
 import {Projects} from "../components/Projects/Projects"
 import { Blog } from "../components/blog/Blog"
 

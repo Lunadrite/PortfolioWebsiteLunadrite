@@ -1,5 +1,5 @@
 import lunadesignes from "../../assets/projects/lunadesignes.png";
-import Securechat from "../../assets/projects/Securechat.png";
+import Securechat from "../../assets/projects/SecureChat.png";
 import glfw from "../../assets/projects/glfw.png";
 import cliProject from "../../assets/projects/cliProject.png";
 export type Progress = "finished" | "in-progress";
