@@ -2,12 +2,11 @@ import type { ReactNode } from "react"
 import Github from "../../assets/home/github-mark-white.png";
 
 const progressText = {
-    finished: "✅ Finished",
+    "finished": "✅ Finished",
     "in-progress": "🟡 In Progress",
-    planned: "⚪ Planned",
+    "planned": "⚪ Planned",
 }
 
-type Progress = "finished" | "inprogress" | "planned";
 
 type ChildrenProps = {
   children: ReactNode
@@ -41,7 +40,7 @@ type ProjectProps ={
   caption?: string,
   href?: string
   src?: string
-  progress: Progress
+  progress: string
 }
 
 type ImportantInfo ={
@@ -203,6 +202,7 @@ export const Blog = {
   Code,
   Blogpost,
   Projects,
+  
 
 
 }

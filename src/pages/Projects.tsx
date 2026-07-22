@@ -1,6 +1,7 @@
 import {Projects} from "../components/Projects/Projects"
 import { Blog } from "../components/blog/Blog"
 
+
 export default function ProjectPage() {
   return (
     <>
