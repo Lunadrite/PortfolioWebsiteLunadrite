@@ -3,7 +3,7 @@ import Github from "../../assets/home/github-mark-white.png";
 
 const progressText = {
     finished: "✅ Finished",
-    inprogress: "🟡 In Progress",
+    "in-progress": "🟡 In Progress",
     planned: "⚪ Planned",
 }
 

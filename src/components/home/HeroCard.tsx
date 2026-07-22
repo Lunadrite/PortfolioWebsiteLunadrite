@@ -13,7 +13,7 @@ export default function HeroCard() {
         <div className="rounded-md text-center font-bold text-2xl underline underline-offset-4 ">
             Luna
         </div>
-        <div className="items-center text-center">Creative assistant</div>
+        <div className="items-center text-center">Computing Student!</div>
         <div className="flex items-center text-center justify-center gap-4 pt-2">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Lunadrite">
             <img src={Github} className="w-[24px]"></img>

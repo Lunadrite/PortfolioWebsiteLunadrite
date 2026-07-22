@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Footer from "../components/Footer";
 import Kitties from "../pages/Kitties";
 import Aboutme from "../pages/Aboutme";
-import Projects from "../pages/Projects"
+import ProjectPage from "../pages/Projects"
 import Blogposts from "../pages/Blogposts"
 import Pointerblogpost from "../pages/PointerBlogpost"
 
@@ -23,7 +23,7 @@ export default function LunaRouter() {
     "/gallery": <Gallery />,
     "/kitties": <Kitties />,
     "/aboutme": <Aboutme />,
-    "/projects": <Projects />,
+    "/projects": <ProjectPage />,
     "/blogposts":<Blogposts />,
     "/pointerblogpost": <Pointerblogpost/>
   };
