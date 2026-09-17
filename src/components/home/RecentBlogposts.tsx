@@ -13,6 +13,7 @@ export default function RecentBlogposts() {
                         caption={blog.title}
                         src={blog.image}
                         href={blog.href}
+                        type={blog.type}
                         />
                     ))}
             </div>

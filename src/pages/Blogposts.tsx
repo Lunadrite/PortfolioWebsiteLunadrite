@@ -15,6 +15,7 @@ export default function Blogposts() {
           caption={blog.title}
           src={blog.image}
           href={blog.href}
+          type={blog.type}
         />
           ))}
   

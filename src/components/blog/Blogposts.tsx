@@ -6,7 +6,8 @@ import FDEC from "../../assets/Blogposts/FDEC/FDEChumbnail.png"
 interface Blog {
     title: string;
     image: string;
-    href: string
+    href: string;
+    type: string;
 }
 
 export const Blogs: Blog[] = [
@@ -14,21 +15,25 @@ export const Blogs: Blog[] = [
     title: "The fetch-decode-execute cycle",
     image: FDEC,
     href: "./fdecblogpost",
+    type: "Architecture"
   },
   {
     title: "An intro to Generics in c++",
     image: Generics,
-    href: "./genericsblogpost"
+    href: "./genericsblogpost",
+    type: "C++"
   },
   {
     title: "A Beginner’s Guide to Base Systems",
     image: BaseSystems,
-    href: "./basesystemsblogpost"
+    href: "./basesystemsblogpost",
+    type: "Architecture"
   },
   {
     title: "Pointers Explained!",
     image: pointersexplained,
-    href: "./pointerblogpost"
+    href: "./pointerblogpost",
+    type: "Programming Fundimentals"
   },
 
 ];

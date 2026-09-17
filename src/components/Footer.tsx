@@ -27,7 +27,7 @@ export default function Footer() {
                 alt="MOTD Banner"
               />
             </div>
-            <div className="bg-white w-[75px] h-[30px] border-2 border-black overflow-hidden">
+            <div className="bg-white w-[75px] h-[30px]  border-2 border-black overflow-hidden">
               <a href="/kitties" className="block w-full h-full">
                 <img
                   src={Kitty}

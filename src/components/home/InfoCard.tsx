@@ -9,7 +9,7 @@ export default function InfoCard() {
             <Home.SubHeading>🖤Basic Info:🖤</Home.SubHeading>
             <Home.Text>Heyy my name is Luna! Im 20 I got into Computing from reverse engineering and Low level developmentation of software!</Home.Text>
             <Home.SubHeading>🐦‍⬛Apsirations:🐦‍⬛</Home.SubHeading>
-            <Home.Text>My goal is to become a systems programmer specialising in low-level software, graphics, and engine development while continuing to write educational content about computer science!</Home.Text>
+            <Home.Text>My goal is to become a systems programmer specialising in low-level software, graphics while continuing to write educational content about computer science!</Home.Text>
             
         </div>
         </div>

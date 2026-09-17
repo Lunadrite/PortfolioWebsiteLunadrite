@@ -35,6 +35,7 @@ type BlogpostProps ={
   src: string
   caption?: string
   href?: string
+  type?: string
 }
 
 type ProjectProps ={
@@ -145,7 +146,7 @@ function Code({children,language = "txt", caption}: CodeProps) {
   )
 }
 
-function Blogpost({caption, src, href}:BlogpostProps   )
+function Blogpost({caption, src, href,type}:BlogpostProps   )
 {
   return(
     <>
@@ -158,7 +159,10 @@ function Blogpost({caption, src, href}:BlogpostProps   )
         </div>
         <div className="projectComment  w-full 2xl:min-w-1xl break-words text-center">
           {caption}
-        <p className="bg-red-200 rounded-4xl text-md">Click Thumbnail to read</p>
+        <p className="bg-red-200 rounded-4xl text-md mb-2">Click Thumbnail to read</p>
+        <span className="wx-[50px] border border-white  p-1 rounded-4xl bg-[#1c1c1c] text-white text-sm">
+          {type}
+        </span>
         </div>
       </div>
     </div>
