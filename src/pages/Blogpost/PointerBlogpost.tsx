@@ -8,6 +8,8 @@ import foomemory from "../../assets/Blogposts/foomemory.png"
 import foomemoryaddress from "../../assets/Blogposts/foomemoryaddresspointer.png"
 import voidpointer from "../../assets/Blogposts/void-pointer.png"
 import smartpointers from "../../assets/Blogposts/smartpointers.webp"
+import catbye from "../../assets/Blogposts/CatWaveBYE.gif"
+
 
 export default function Blogposts() {
   return (
@@ -38,8 +40,8 @@ export default function Blogposts() {
     Here's a little diagram to explain it:
     </Blog.Text>
     <Pageicon color={""} />
-    <Blog.Text>Value = The date stored at the Address</Blog.Text>
-    <Blog.Text>Address = Where the data "lives" in the memory</Blog.Text>
+    <Blog.Text>Values = The data stored at the Address</Blog.Text>
+    <Blog.Text>Address = Where the data "lives" in memory</Blog.Text>
     <br/>
     <Blog.Text>You may be wondering why the Addresses all begin with 0x, and it’s simple to indicate that it is following a Value written in Hexadecimal, aka Base 16. If you want to learn more about this, I will be making an article teaching Hex along with binary, so look out for that!</Blog.Text>
     <Blog.Text>So, as we see in the diagram in the Address of <Blog.ImportantInfo>0x100000</Blog.ImportantInfo>, we have the value of 1,</Blog.Text>
@@ -170,7 +172,7 @@ int (*FunctionPointer)() {&foo}; // Function Pointer pointes to the funciton & o
     <br/>
     <br/>
     <Blog.Text>Thank you for reading this article, and I hope it helped you learn more about pointers if you were confused! Have a good day!!</Blog.Text>
-    
+    <Blog.Image src={catbye}/>
     </div>
   </>
   );

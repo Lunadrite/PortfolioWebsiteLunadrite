@@ -38,6 +38,7 @@ export default function Blogposts() {
             <Blog.Text>This looks nice to computers, and they can process this a lot faster, BUT it’s hard for humans to read and process.</Blog.Text>
             <Blog.Text>Well, we have a problem there, don't we? That’s what John William Nystrom thought too and made the system called Hexadecimal, which we cover in this next part :)</Blog.Text>
             <Blog.Image src={william}/>
+            <Blog.Text>A Picture of John William Nystrom.</Blog.Text>
             <Blog.SubHeading>Hexadecimal</Blog.SubHeading>
             <Blog.Image src={hexmeme}/>
             <Blog.SubHeading>Why do we use Hexadecimal?</Blog.SubHeading>
