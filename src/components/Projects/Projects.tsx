@@ -2,6 +2,7 @@ import lunadesignes from "../../assets/projects/lunadesignes.png";
 import Securechat from "../../assets/projects/SecureChat.png";
 import glfw from "../../assets/projects/glfw.png";
 import cliProject from "../../assets/projects/cliProject.png";
+import mewgenicscursors from "../../assets/projects/cursorsmewgenics.png"
 export type Progress = "finished" | "in-progress";
 
 interface Project {
@@ -15,6 +16,17 @@ interface Project {
 }
 
 export const Projects: Project[] = [
+    {
+    id: "mewgenicscursor",
+    title: "Pride And NPC Cursors",
+    image: mewgenicscursors,
+    description:
+      "This is my first mod i ever made, it was a cursor addition which added additional sprites to the base game for pride, which i expanded to have cursors of the npcs.",
+    github: "https://www.nexusmods.com/mewgenics/mods/310",
+    status: "in-progress",
+    technologies: ["React", "TypeScript", "TailwindCSS"],
+  },
+
   {
     id: "lunadesignes",
     title: "LunaDesignes",
