@@ -23,7 +23,7 @@ export const Projects: Project[] = [
     description:
       "This is my first mod i ever made, it was a cursor addition which added additional sprites to the base game for pride, which i expanded to have cursors of the npcs.",
     github: "https://www.nexusmods.com/mewgenics/mods/310",
-    status: "in-progress",
+    status: "finished",
     technologies: ["React", "TypeScript", "TailwindCSS"],
   },
 
