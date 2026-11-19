@@ -5,7 +5,7 @@ export default function Blogposts() {
   return (
     <>
     <p className="pt-4 mb-4 mx-auto text-center">
-      Here are my blogposts, I plan to write and import all of them so make sure to come back!
+      Here are my blogposts, they update regularly so make sure to coem back!
     </p>
 
     <div className="flex justify-center">
